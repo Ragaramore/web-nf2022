@@ -1,0 +1,68 @@
+body{
+    background-color: lightblue;
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+
+
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+
+p{
+    text-align: justify;    
+    width: fit-content;
+}
+
+
+.center{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.foto{
+    background-color: black;
+}
+
+
+.foto img{
+    width: 23%;
+}
+
+
+.cod{
+   margin: auto;
+   width: 80%;
+}
+
+
+.cod p{
+    background-color: aqua;
+    border: 5px dotted red;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    margin: auto;
+}
+
+.promo{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+
+
+#tombol{
+    background-color: yellow;
+    color: red;
+    display: flex;
+    border: none;   
+    box-shadow: 1px 2px black;
+    margin: auto;
+    padding: 8px 8px;
+}
+
+
