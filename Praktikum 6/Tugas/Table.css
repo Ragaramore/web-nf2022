@@ -1,0 +1,30 @@
+table, tr, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+}
+
+.warna{
+    background-color: #5b9bd5;
+}
+
+.warna2{
+    background-color: aqua;
+    opacity: 2%;
+}
+
+
+table tbody tr:nth-child(odd) {
+	background-color: lightblue;
+}
+
+
+table tbody tr, table tbody tr td{
+    border: 1px solid lightblue;
+}
+
+table thead tr td{
+    color: white;
+    border: 1px solid lightblue;
+}
