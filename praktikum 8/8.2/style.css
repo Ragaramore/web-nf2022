@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex ;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 1rem;   
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+main article {
+    background-color: lightgreen;
+    flex: 2;
+}
+
+main aside {
+    background-color: pink;
+    flex: 1;
+}
+
+main nav {
+    background-color: palevioletred;
+    flex: 1;
+}
+
+footer {
+    background-color: red;
+    padding: 1rem;   
+}
