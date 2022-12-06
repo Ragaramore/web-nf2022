@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjumlahan</title>
+</head>
+<body>
+    Nilai Pertama <br>
+    <input id="jumlah1" type="number" onchange="fungsi()" /><br>
+    Nilai Kedua <br>
+    <input id="jumlah2" type="number" onchange="fungsi()" />
+    <div id="hasiljumlah"> </div><br>
+    
+    <script>
+      function fungsi() {
+        var jumlah1 = document.getElementById("jumlah1").value;
+        var jumlah2 = document.getElementById("jumlah2").value;
+    
+        var hasil = parseInt(jumlah1) + parseInt(jumlah2); 
+    
+        var result = document.getElementById("hasiljumlah"); 
+    
+        result.innerHTML = hasil ;
+      }
+    </script>
+</body>
+</html>
