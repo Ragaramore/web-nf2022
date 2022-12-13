@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .error {
+            display: none;
+        }
+        small {
+            color: red;
+        }
+        * {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+        <div id="form">  
+            <!-- <form> -->
+                <h1>Form Validasi</h1>
+                <div>
+                    <label for="name" >Nama</label>
+                    <input type="text" class="form-control" id="name" placeholder="Masukan Nama" >
+                    <small id='error_nama' class='text-danger error'>Nama Tidak boleh kosong</small>
+                </div>
+                <div>
+                    <label for="email" >Email address</label>
+                    <input type="text" class="form-control" id="email" placeholder="Masukan Email" >
+                    <small id='error_email' class='text-danger error'>Nama Tidak boleh kosong</small>
+                </div>
+                <div>
+                    <label for="jam" >jam keberangkatan</label>
+                    <input type="time" class="form-control" id="jam" placeholder="jam keberangkatan" >
+                    <small id='error_jam' class='text-danger error'>jam keberangkatan tidak boleh kosong</small>
+                </div>
+                <div>
+                    <label for="tujuan" >Tujuan keberangkatan</label>
+                    <input type="text" class="form-control" id="tujuan" placeholder="Masukan tujuan" >
+                    <small id='error_tujuan' class='text-danger error'>tujuan keberankatan Tidak boleh kosong</small>
+                </div>
+                <div>
+                    <label for="jumlah" >jumlah tiket</label>
+                    <input type="number" max="10" class="form-control" id="jumlah" placeholder="Masukan tiket max 10" >
+                    <small id='error_jumlah' class='text-danger error'>jumlah tiket Tidak boleh kosong</small>
+                </div>
+                <div>
+                    <button onclick='submitForm()'>Simpan</button>
+                </div>
+            <!-- </form> -->
+        </div>
+        <div id="success" style="display: none;">  
+            <h1>Login Berhasil</h1>
+        </div>
+   </div>
+   <script src="code.js"></script>
+</body>
+</html>
